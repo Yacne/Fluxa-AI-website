@@ -213,5 +213,16 @@ ul {
 }
 }
 
+.chat-dim-image {
+            width: 10%; /* الحجم الافتراضي للحواسيب */
+            height: auto;
+            padding: 20px;
+            border-radius: 75%;
+            object-fit: cover;
+        }
 
-
+        @media only screen and (max-width: 768px) {
+            .chat-dim-image {
+                width: 50%; /* الحجم للهواتف */
+            }
+        }
